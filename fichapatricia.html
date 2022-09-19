@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DyDWeb</title>
+<style>
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(144, 238, 207);
+
+    }
+    header{
+    width: 100%;
+    height: 200px;
+    background-color: goldenrod;
+    margin: 0px;
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+ background-color: rgb(138, 136, 134);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+nav{
+    width: 100%;
+
+    background-color: yellow; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+nav ul li a:hover {
+    color:red;
+}
+
+.TituloPrincipal{
+text-align: center;
+}
+.contenedor{
+    width: 100%;
+    text-align: center;
+ 
+}
+.fichacontenedor{
+ display: flex;
+
+
+}
+.fotoperfilficha{
+    width: 30%;
+
+}
+.imgfotoper{
+    width: 100%;
+}
+.datosperfil{
+text-align: left;
+
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="menu">  
+            <label for="menu"> ☰ </label>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="servicios.html"> Servicios</a></li>
+                <li><a href="integrantes.html"> Quienes somos</a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+        <h1 class="TituloPrincipal">Diseño y Desarrollo Web</h1>      
+    </header>
+   <main>
+    <div class="fichacontenedor">
+      <div class="fotoperfilficha">
+           <img src="img/perfil4.jpg" alt="foto Patricia" class="imgfotoper">
+      </div>
+      <div class="datosperfil">
+            <h3>
+                  Conocimientos en Programación
+            </h3>
+            <ul>
+                  <li>CSS</li>
+                 <li>HTML</li>
+                  <li>JavaScript</li>
+                  <li>Python</li>
+            </ul>
+            <h3>
+                 Idiomas
+             </h3>
+              <ul>
+                <li>Inglés</li>
+       
+              </ul>
+     </div>
+    </div>
+   </main>
+   <footer>
+     <p>Todos los derechos reservados</p>
+   </footer>
+</body>
+</html>
